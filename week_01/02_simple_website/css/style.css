@@ -1,13 +1,15 @@
-/* CSS reset*/
+/* Minimal CSS reset*/
 *{
   margin: 0;
   padding: 0;
 }
 
-
 body{
   background: #222;
 }
+
+/* === HEADER === */
+
 
 header{
   background: hotpink;
@@ -15,16 +17,24 @@ header{
   height: 20vh;
 }
 
+nav{
+  width: 100%;
+}
+
+nav li{
+  background: palegoldenrod;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+/* === SECTION === */
+
+
 section#content{
   width: 100%;
   height: 60vh;
   background: cyan;
-}
-
-footer{
-  width: 100%;
-  height: 20vh;
-  background: orange;
 }
 
 #content > article{
@@ -41,13 +51,10 @@ footer{
   float: right;
 }
 
-nav{
-  width: 100%;
-}
+/* === FOOTER === */
 
-nav li{
-  background: palegoldenrod;
-  display: inline-block;
-  padding: 10px;
-  margin-left: 20px;
+footer{
+  width: 100%;
+  height: 20vh;
+  background: orange;
 }
