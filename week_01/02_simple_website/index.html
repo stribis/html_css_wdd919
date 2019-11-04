@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simple Website</title>
+  <!-- Since our stylesheet is in the CSS folder, we have to first navigate there and the reference the name of the .css-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- This is a very layout we are trying to recreate based on the screenshot on slide 16 -->
+
+  <!-- A header which includes a navigation-->
+  <header>
+    <nav>
+      <!-- The nav links are somewhat related to eachother (they are all part of a navigation).
+         This means this is the perfect use case for an unordered list-->
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Beispiele</a></li>
+        <li><a href="#">Accessibility</a></li>
+        <li><a href="#">Helfer</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- This is a section / part of our page, it contains 2 different containers inside of it -->
+  <section id="content">
+    <!-- For this example we will be using an article and an aside -->
+    <article>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </article>
+    <aside>
+      <p>Ich bin ein aside.</p>
+    </aside>
+  </section>
+  <!-- The footer is the bottom our or page in this case, it could also be the bottom of a container.-->
+  <footer>
+    <p>Ich bin ein footer.</p>
+  </footer>
+
+</body>
+</html>

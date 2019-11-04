@@ -1,0 +1,129 @@
+/* This is a CSS comment, whatever you write between the '*' is not going to be interpreted as CSS */
+
+/* This is a very minimal CSS reset which tries to reset some properties to 0 and get rid of the browser's default styles */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+  The syntax of CSS is as follows : 
+  1. Our selector ( Which HTML element in the HTML document do we want to select and style)
+  2. Between brackets '{ }' we write our statements which always have a property we want to alter and a value we want to set.
+     eg: if I want to change the background to black then you write the property (background) : the value (black)
+     Always end the statement with a semicolon ( ; )
+  3. You can keep adding more and more statements if you want to alter further properties.
+*/
+body{
+  background: #222;
+  color: #eee;
+}
+
+/* 
+  The element selector
+  By writing the name of an element as a selector, you select all the elements in the document with that name
+  eg: in this case we are selecting all the the <h1> elements and changing the color (text color) to red.
+*/
+
+h1{
+  color: red;
+}
+
+p{
+  color: green;
+}
+
+/* This works with all elements / tags */
+
+li{
+  color: gold;
+}
+
+/*
+  If you want to select multiple elements then you have to use commas ( , )
+  eg: in this case we are selecting ALL the <h1> elements and ALL the <p> elements
+*/
+h1, p{
+  text-decoration: underline;
+}
+
+/*
+  'space' The Descendant Selector
+  Selects elements that are descendants of the first element.
+  In this case we will select all <a> elements inside <ul> tags
+*/
+ul a{
+  color: chartreuse;
+}
+
+/*
+  . The Class Selector
+  Selects all elements that have the given class attribute.
+  In this case we will select any elements with the class attribute of 'foo'
+*/
+.foo{
+  font-family: monospace;
+}
+
+/*
+  # The ID Selector
+  Selects an element based on the value of its id attribute. 
+  There should be only one element with a given ID in a document.
+  In this case we will select any element with the id attribute of 'baz'
+*/
+#baz{
+  font-family: cursive;
+}
+
+/*
+In this case we will select any element with the id attribute of 'lol'
+*/
+#lol{
+  font-family: sans-serif;
+}
+
+/*
+  We can be more specific by combining selecors like so:
+  In this case I am selecting only <p> elements with the class foo
+*/
+p.foo{
+  text-align: center;
+}
+/* 
+  Notice that there is no space between 'p' and '.foo'. 
+  If there were a space, you would be selecting all elements with the class foo INSIDE of <p> elements
+*/
+
+div span{
+  color: hotpink;
+}
+
+/* 
+  This is the direct child selector which will select only the <span> elements which are directly Descendent of <div> elements  
+*/
+
+div > span{
+  color: aqua;
+}
+
+/* 
+  Adjacent Sibling Selector  
+  Selects elemets adjacent to an element
+  in this case I will select a div that is right next to an element with the id 'center'
+*/
+#center + div{
+  color: red;
+}
+
+/* 
+  There are a lot more selectors in the CSS arsenal (see slides #33 - #36) 
+  These include:
+
+  The attribute selector: Selects all elements with a given attribute
+  eg. div[title] (selects all divs with the attribute title) 
+  You can even select elements with attributes that contain specific value
+  eg. div[title=Foo] (selects all divs with a title attribute with the value foo
+
+  The general sibling selector: Selects all siblings after a given element
+  eg. h1 ~ p selects all p elements which are siblings and after an <h1>
+*/

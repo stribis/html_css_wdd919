@@ -1,0 +1,53 @@
+/* CSS reset*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background: #222;
+}
+
+header{
+  background: hotpink;
+  width: 100%;
+  height: 20vh;
+}
+
+section#content{
+  width: 100%;
+  height: 60vh;
+  background: cyan;
+}
+
+footer{
+  width: 100%;
+  height: 20vh;
+  background: orange;
+}
+
+#content > article{
+  background: blueviolet;
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+#content > aside{
+  background: lime;
+  width: 40%;
+  height: 100%;
+  float: right;
+}
+
+nav{
+  width: 100%;
+}
+
+nav li{
+  background: palegoldenrod;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 20px;
+}

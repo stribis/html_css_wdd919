@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS</title>
+  <style>
+  /* 
+    This is a style tag, you can write CSS within the style tag
+    For this example, we won't be using the style tag, since we will be linking a stylesheet
+  */
+  </style>
+  <!-- 
+    With the link tag, we get the CSS stylesheet we need 
+    1. The first attribute is the rel attribute which should always be 'stylesheet'
+    2. The second is the path to the .css file we want to get
+  -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- For this exaple I have included some HTML tags which we will try to select with CSS -->
+  <h1 id="lol" class="foo">Hello World</h1>
+
+  <p class="foo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, illum autem a inventore blanditiis architecto, sequi dolore voluptas.</p>
+
+  <ul>
+    <li id="baz">foo</li>
+    <li>foo</li>
+    <li>foo</li>
+    <li>foo</li>
+    <li><a href="#">Lorem</a></li>
+  </ul>
+
+  <a href="http://google.ch">Link to somewhere</a>
+
+  <div>
+    <span>Hello</span>
+    <p>
+      <span>World</span>
+    </p>
+    <span>Popcorn</span>
+  </div>
+
+  <div>
+    <div class="bar">map</div>
+    <div class="bar">map</div>
+    <div id="center">map</div>
+    <div class="bar">map</div>
+    <div class="bar">map</div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!-- Always add the <!DOCTYPE> declaration to your HTML documents, so that the browser knows what type of document to expect. -->
+<!DOCTYPE html>
+<!--  ROOT html element in which all your other elements will be nested -->
+<html lang="en">
+  <!-- The HTML <head> element contains machine-readable information (metadata) about the document, 
+  like its title, scripts, and style sheets. -->
+  <head>
+    <!-- The HTML <meta> element represents metadata that cannot be 
+    represented by other HTML meta-related elements, like <base>, <link>, <script>, <style> or <title>. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--  Defines the document's title that is shown in a browser's title bar or a page's tab -->
+    <title>Document</title>
+  </head>
+  <!-- The HTML <body> Element represents the content of an HTML document. -->
+  <body>
+    
+    <!-- <a> Hyperlink tag -->
+    <a href="about.html">Link to about page</a>
+
+    <!-- <br> Line break -->
+    <br>
+
+    <!-- <div> Division (Container) -->
+    <div></div>
+
+    <!-- h1 - h6 (headings)-->
+    <h1>I am the biggest</h1>
+    <h3>I am medium</h3>
+    <h6>I am the smallest</h6>
+
+    <!-- <hr> Horizontal Rule -->
+    <hr>
+
+    <!-- <p></p> Paragraph -->
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae aperiam vitae praesentium illo nostrum, voluptatum doloremque illum?</p>
+    
+    <!-- <span></span> Inline Container -->
+    <p>Lorem ipsum, dolor sit amet <span>consectetur</span> adipisicing elit. Quae aperiam vitae praesentium illo nostrum, voluptatum doloremque illum?</p>
+
+    
+    <!-- Form 
+    Contains all our form tags
+    -->
+    <form>
+      <!-- a label for an input -->
+      <label for="username">Username: </label>
+      <!-- a place where the user can write-->
+      <input placeholder="Enter your username" type="text" id="username"><br>
+      <label for="password">Password: </label>
+      <input type="password" id="password"><br>
+      <button>Log in!</button>
+    </form>
+
+    <!-- Formatting Tags -->
+    <b>I am bold</b>
+    <strong>I am bold</strong>
+    <em>I am italic</em>
+    <i>I am italic</i>
+    <small>I am small</small>
+    <!-- Checkout MDN for more information about these tags 
+    example : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em-->
+
+    <!-- Lists -->
+
+    <!-- unordered lists -->
+    <!-- They have no numbers  -->
+    <ul>
+      <li>foo</li>
+      <li>bar</li>
+      <li>baz</li>
+      <li>zoo</li>
+      <li>pop</li>
+    </ul>
+
+    <!-- Ordered lists -->
+    <!-- numerically ordered  -->
+    <ol>
+      <li>foo</li>
+      <li>bar</li>
+      <li>baz</li>
+      <li>zoo</li>
+      <li>pop</li>
+    </ol>
+
+    <!-- Image tag, needs a source and should always have an alt attribute -->
+    <img src="https://placekitten.com/200/300" alt="Cute Cat">
+
+    <!-- Semantic Tags -->
+    <!-- read more about semantic elements here: https://guide.freecodecamp.org/html/html5-semantic-elements/ -->
+    <nav>
+      NAV<br>
+      represents a section of a page whose purpose is to provide navigation links,<br>
+       either within the current document or to other documents
+    </nav>
+
+    <header>
+      HEADER<br>
+      represents introductory content, typically a group of introductory or navigational aids.<br> 
+      It may contain some heading elements but also a logo, a search form, an author name, and other elements.
+    </header>
+
+    <footer>
+      FOOTER<br>
+      element represents a footer for its nearest sectioning content or sectioning root element
+    </footer>
+
+    <article>
+      ARTICLE <br>
+      Represents a self-contained composition in a document, page, application, or site <br>
+      Examples include: a forum post, a magazine or newspaper article, or a blog entry.
+    </article>
+
+    <section>
+      SECTION <br>
+      Represents a standalone section 
+    </section>
+
+    <aside>
+      ASIDE <br>
+      Represents a portion of a document whose content is only indirectly related to the document's main content.<br> 
+      Asides are frequently presented as sidebars or call-out boxes.
+    </aside>
+
+    <main>
+      MAIN <br>
+      Represents the dominant content of the &lt;body&gt; of a document.
+    </main>
+
+  </body>
+</html>
