@@ -1,0 +1,52 @@
+/* === Small CSS Reset === */
+*{
+  margin: 0;
+  padding: 0;
+}
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+body{
+  background: #222;
+}
+
+/* === Same Example - with GRID === */
+
+
+.container{
+  border: solid 2px rgb(255, 0, 128);
+  width: 90vw;
+  height: 90vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.box{  
+  border: solid 2px white;
+  text-align: center;
+  padding: 1em 0;
+  font-family: monospace;
+}
+
+#first{
+  background: rgb(255, 255, 0);
+}
+#second{
+  background: rgb(0, 255, 0);
+}
+#third{
+  background: rgb(0, 102, 255);
+}
+#fourth{
+  background: rgb(162, 0, 255);
+}
+#fifth{
+  background: rgb(255, 0, 106);
+  grid-column: 1 / 3;
+}
