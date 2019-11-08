@@ -19,7 +19,7 @@
   * :file_folder: [`02_simple_website`](https://github.com/stribis/html_css_wdd919/tree/master/week_01/02_simple_website)
 --- 
 
-### :two: Week 2:
+### :two: Week 2:two:
 ### :file_folder: [`week_02`](https://github.com/stribis/html_css_wdd919/tree/master/week_02)
 #### HTML & CSS Basics
 
@@ -39,5 +39,5 @@
   * :file_folder: [`07_flex_example`](https://github.com/stribis/html_css_wdd919/tree/master/week_02/07_flex_example)
 --- 
 
-### :two: Week 2:
-### :construction_worker: Work in progress :construction_worker:
+### :three: Week 3:three:
+### :construction_worker: Coming soon :construction_worker:
