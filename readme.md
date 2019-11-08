@@ -20,5 +20,24 @@
 --- 
 
 ### :two: Week 2:
-#### :construction_worker: COMING SOON :construction_worker:
+### :file_folder: [`week_02`](https://github.com/stribis/html_css_wdd919/tree/master/week_02)
+#### HTML & CSS Basics
 
+* Block and Inline Elements
+  * :file_folder: [`01_block_element`](https://github.com/stribis/html_css_wdd919/tree/master/week_02/01_block_element)
+* CSS Float
+  * :file_folder: [`02_floatVsFlexVsGrid`](https://github.com/stribis/html_css_wdd919/tree/master/week_02/02_floatVsFlexVsGrid)
+* Creating simple layouts with float
+  * :file_folder: [`03_float_layout`](https://github.com/stribis/html_css_wdd919/tree/master/week_02/03_float_layout)
+* CSS selectors exercise
+  * :file_folder: [`04_selectingExercise`](https://github.com/stribis/html_css_wdd919/tree/master/week_02/04_selectingExercise)
+* CSS position property
+  * :file_folder: [`05_positioning`](https://github.com/stribis/html_css_wdd919/tree/master/week_02/05_positioning)
+* CSS Flex Box basics
+  * :file_folder: [`06_basics_flex`](https://github.com/stribis/html_css_wdd919/tree/master/week_02/06_basics_flex)
+* CSS Flex Box Layout Exercise :construction_worker:(NOT FINISHED):construction_worker:
+  * :file_folder: [`07_flex_example`](https://github.com/stribis/html_css_wdd919/tree/master/week_02/07_flex_example)
+--- 
+
+### :two: Week 2:
+### :construction_worker: Work in progress :construction_worker:
