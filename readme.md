@@ -3,7 +3,7 @@
 #### :school: SAE Institute Zürich
 #### :pencil2: Author: Martin Hutchings - Head Instructor
 
---- 
+---
 
 ### :one: Week 1: :one:
 ### :file_folder: [`week_01`](https://github.com/stribis/html_css_wdd919/tree/master/week_01)
@@ -40,4 +40,17 @@
 --- 
 
 ### :three: Week 3 :three:
-### :construction_worker: Coming soon :construction_worker:
+### :file_folder: [`week_03`](https://github.com/stribis/html_css_wdd919/tree/master/week_03)
+#### HTML & CSS Basics
+
+* Linear Gradients in CSS 
+  * :file_folder: [`01_gradients`](https://github.com/stribis/html_css_wdd919/tree/master/week_03/01_gradients)
+* Web Fonts and @font-face 
+  * :file_folder: [`02_fonts`](https://github.com/stribis/html_css_wdd919/tree/master/week_03/02_fonts)
+* EM VS REM 
+  * :file_folder: [`03_em_rem`](https://github.com/stribis/html_css_wdd919/tree/master/week_03/03_em_rem)
+* Box Shadow Exercise
+  * :file_folder: [`04_box_shadow`](https://github.com/stribis/html_css_wdd919/tree/master/week_03/04_box_shadow)
+
+
+### :construction_worker: MORE Coming soon :construction_worker:

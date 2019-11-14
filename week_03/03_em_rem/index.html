@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rem vs Em</title>
+  <style>
+
+
+  /* === REM VS EM === */
+  /* === 
+    Rem is relative to the font-size of the HTML element (usually 16px)
+    If the root font-size is 16px then 1rem is always 16px, regardless of how nested the element is
+    
+    Em is relative to the font-size of the next parent element with a font-size
+    
+    example:
+    div > p
+    the div has a font-size of 2em which is 32px be default because we havent changed the  
+    font-size of the root
+    If we change the font-size of the p to 2em, then the p will have a computed font-size of 2x32px
+    Because it is relative to the font-size of the div and not of the html
+  === */
+  
+  
+  
+  html{
+    font-size: 100%;
+  }
+  
+
+  div{
+    font-size: 2em;
+  }
+
+  div p{
+    font-size: 2em;
+  }
+
+  div p a{
+    font-size: 2em;
+  }
+
+  </style>
+</head>
+<body>
+  
+  <div>
+    foo
+    <p>
+      bar
+      <br><a href="#">baz</a>
+    </p>
+    
+
+    <div>
+      foo
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fonts</title>
+  <!--  THis is a webdfont from google fonts 
+        You can import it by using the link tag or using @import in your css
+        You can use it by simply calling it's name in the font-family declaration
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <style>
+  
+  /*
+    This is @font-face
+    We use it to create a font using a LOCAL font-file
+    There multiple supported font formats, but support varies from browser to browser
+    common formats include: .woff, .otf and .ttf
+
+    A font-face needa font-family. This is the name you are going to use when you 
+    do a font-family declaration for an element.
+
+    It also needs a src. This is the path to the local font file.
+    Remember to always use quotes and don't forget the file ending.
+  */
+  @font-face {
+    font-family: "Mandatory";
+    src: url('fonts/Mandatory Plaything.otf');
+  }
+
+  p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+
+  h3{
+    font-family: 'Mandatory';
+  }
+  </style>
+</head>
+<body>
+  <p>Hello World</p>
+  <h3>I am a @font-face import</h3>
+</body>
+</html>
