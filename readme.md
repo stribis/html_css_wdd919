@@ -52,5 +52,17 @@
 * Box Shadow Exercise
   * :file_folder: [`04_box_shadow`](https://github.com/stribis/html_css_wdd919/tree/master/week_03/04_box_shadow)
 
+---
+
+### :three: Week 4 :three:
+### :file_folder: [`week_03`](https://github.com/stribis/html_css_wdd919/tree/master/week_03)
+#### HTML & CSS Basics
+
+* Tables
+  * :file_folder: [`01_tables`](https://github.com/stribis/html_css_wdd919/tree/master/week_04/01_tables)
+* Forms
+  * :file_folder: [`02_form`](https://github.com/stribis/html_css_wdd919/tree/master/week_04/02_form)
+* Completed flex example
+  * :file_folder: [`03_flex_example_finished`](https://github.com/stribis/html_css_wdd919/tree/master/week_04/03_flex_example_finished)
 
 ### :construction_worker: MORE Coming soon :construction_worker:

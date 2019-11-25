@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+  <style>
+  /* === Small CSS Reset === */
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  *, *::after, *::before{
+    box-sizing: border-box;
+  }
+
+  #contact form{
+    width: 400px;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #contact input{
+    margin-bottom: 2em;
+  }
+  </style>
+</head>
+<body>
+  <section id="contact">
+    <form>
+      <!-- First Name -->
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" placeholder="Your first name">
+
+      <!-- Last Name -->
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" placeholder="Your last name">
+
+      <!-- Email -->
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Your email address">
+
+      <!-- Message -->
+      <label for="message">Message</label>
+      <textarea id="message" cols="30" rows="10"></textarea>
+      
+      <!-- Send Button -->
+      <button>Send</button>
+    </form>
+  </section>
+</body>
+</html>
