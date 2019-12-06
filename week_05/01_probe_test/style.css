@@ -1,0 +1,382 @@
+/* === PROBE TEST HTML CSS === */
+/* === Author : Martin Hutchings === */
+
+/* === Table of contents === */
+/*
+01: Reset
+02: Navigation
+  02.1: Main Navigation
+  02.2: Dropdown Navigation
+03: Page Header
+04: Team Section
+05: Work Section
+06: Contact Form
+07: Footer
+*/
+
+
+/* === 01: CSS Reset START=== */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/* === 01: CSS Reset END=== */
+
+
+/* === 02: Navigation START=== */
+
+/* 02.1 Main Navigation*/
+nav{
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  top: 0;
+  background: black;
+}
+
+nav > ul{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  list-style: none;
+}
+
+nav > ul > li{
+  height: 100%;
+  padding: 10px 1em;
+}
+
+nav > ul > li:hover{
+  background: rgb(51, 177, 164);
+}
+
+nav > ul > li:hover a{
+  color: black;
+}
+
+nav > ul > li:first-of-type{
+  background: rgb(51, 177, 164);
+}
+
+nav > ul > li:first-of-type:hover{
+  background: rgb(51, 177, 164);
+}
+
+nav > ul > li a {
+  color: white;
+  text-decoration: none;
+}
+
+#search{
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#search:hover{
+  color: rgb(51, 177, 164);
+}
+
+
+/* 02.2 Dropdown Navigation*/
+
+.dd_trigger:hover .dd_menu{
+  display: block;
+}
+
+.dd_trigger{
+  position: relative;
+}
+
+.dd_menu{
+  display: none;
+  width: 100%;
+  top: 100%;
+  background: white;
+  position: absolute;
+}
+
+.dd_menu li{
+  list-style: none;
+  padding: 0.6em ;
+
+}
+
+.dd_menu li a{
+  color: black;
+}
+
+.dd_menu li:hover{
+  background: grey;
+}
+
+/* === 02: Navigation END=== */
+
+/* === 03: Navigation START=== */
+
+header{
+  position: relative;
+  height: 600px;
+  background: url('https://images.wallpaperscraft.com/image/boat_sea_bw_145622_2048x1152.jpg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+header h1{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background: black;
+  font-size: 24px;
+  padding: 0.4em;
+}
+
+/* === 03: Navigation END=== */
+
+/* === 04: Team START=== */
+
+section.team{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.team h2{
+  margin: 2em 0 1em 0;
+  font-size: 30px;
+}
+
+.team h3{
+  font-size: 15px;
+  margin: 0 0 1em 0;
+}
+.team .members{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 0;
+}
+
+.members .member{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.members .member h3{
+  font-size: 24px;
+}
+.members .member p{
+  font-size: 16px;
+}
+
+.members .member img{
+  margin-bottom: 1em;
+  border-radius: 50%;
+  width: 150px;
+  transition: 0.25s;
+}
+
+.members .member img:hover{
+  opacity: 0.6;
+}
+
+
+/* === 04: Team END=== */
+
+/* === 05: Work START=== */
+
+.work{
+  background: black;
+  widows: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em 5px;
+}
+
+.work article h2{
+  font-size: 30px;
+}
+
+.work article, .work .card{
+  width: 24%;
+}
+
+.work article{
+  color: white;
+}
+
+.work .card{
+  background: white;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card img{
+  width: 100%;
+}
+
+.card .description{
+  display: flex;
+  flex-direction: column;
+  padding: 0.8em;
+}
+
+.card .description h3{
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.card .description h4{
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.card .description p{
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* === 05: Work END=== */
+
+/* === 06: Contact START=== */
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 15px;
+}
+
+.contact_info > *{
+  margin: 10px 0;
+}
+
+.contact_info i{
+  color: rgb(51, 177, 164);
+}
+
+.contact form{
+  padding: 20px;
+  position: relative;
+  box-shadow: 3px 3px 13px #444;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+form label{
+  color: rgb(51, 177, 164);
+  margin: 10px 0;
+}
+
+form input{
+  padding:5px 0;
+  border: none;
+  border-bottom: black 1px solid;
+}
+
+form button{
+  padding: 0.4em;
+  background: black;
+  color: white;
+  width: 60px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+}
+
+form button:hover{
+  box-shadow: 2px 2px 5px 2px rgba(51, 51, 51, 0.637);
+  cursor: pointer;
+}
+
+/* === 06: Contact END=== */
+
+/* === 07: Footer START=== */
+
+footer{
+  position: relative;
+  padding: 2em 0;
+  background: black;
+  color: white;
+}
+
+footer .sm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .icons{
+  margin: 10px 0;
+  display: flex;
+}
+
+footer .icon{
+  background: rgb(51, 177, 164);
+  font-size: 1.2em;
+  border-radius: 50%;
+  margin: 0.2em;  
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer .sm small{
+  text-decoration: underline;
+}
+
+footer .totop{
+  position: absolute;
+  right: 10px;
+  bottom: 4em;
+  top: 50%;
+  font-size: 1.5em;
+}
+
+.tt_container{
+  color: white;
+  text-decoration: none;
+}
+
+.totop button{
+  display: none;
+  top: 50%;
+  transform: translateY(-20%);
+  position: absolute;
+  right: 140%;
+  padding: 0.4em;
+  color: white;
+  background: rgb(51, 177, 164);
+  border: none;
+  width: 100px;
+  font-size: 1rem;
+}
+footer .totop:hover{
+  cursor: pointer;
+  color: rgb(51, 177, 164);
+}
+footer .totop:hover button{
+  display: block;
+}
+
+/* === 07: Footer END=== */

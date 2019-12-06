@@ -1,0 +1,42 @@
+<ul id="navi">
+    <li>Navi 1</li>
+    <li>Navi 2
+        <ul>
+            <li>SubNavi 2</li>
+            <li>SubNavi 3</li>     
+        </ul>
+    </li>  
+    <li>Navi3</li>
+</ul>
+
+
+<style>
+    
+    ul#navi {
+        width:100%;
+        margin:0;
+        padding:0;        
+    }
+    
+    li {
+        display:block;
+        list-style-type:none;
+        height:20px;
+        width:100px;
+        float:left;
+        border:1px solid black;
+    }
+    ul ul {
+        transform: scaleY(0);
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        transition: 1s;
+        transform-origin:top;
+    }
+    
+    ul li:hover ul {
+        transform: scaleY(1);
+    }
+
+</style>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>about</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+
+    main{
+      width: 100%;
+    }
+
+    .box{
+      /* margin: 0 auto; */
+      position: relative;
+      left: 50%;
+      width: 200px;
+      height: 200px;
+      background: orange;
+      transform: translateX(-50%);
+    }
+
+    .box::before{
+      content: '';
+      background: red;
+      height: 100%;
+      width: 100%;
+      left: 100%;
+      top: 0;
+      position: absolute;
+    }
+
+    .box::after{
+      content: '';
+      background: greenyellow;
+      height: 100%;
+      width: 100%;
+      right: 100%;
+      top: 0;
+      position: absolute;
+    }
+
+  </style>
+</head>
+<body>
+  <nav id="main_navigation">
+    <ul>
+      <li><a href="../index.html">home</a></li>
+      <li><a href="contact.html">contact</a></li>
+      <li><a href="blog.html">blog</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="box">
+      Hello
+    </div>
+  </main>
+</body>
+</html>

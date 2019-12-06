@@ -54,8 +54,8 @@
 
 ---
 
-### :three: Week 4 :three:
-### :file_folder: [`week_03`](https://github.com/stribis/html_css_wdd919/tree/master/week_03)
+### :four: Week 4 :four:
+### :file_folder: [`week_04`](https://github.com/stribis/html_css_wdd919/tree/master/week_04)
 #### HTML & CSS Basics
 
 * Tables
@@ -65,4 +65,55 @@
 * Completed flex example
   * :file_folder: [`03_flex_example_finished`](https://github.com/stribis/html_css_wdd919/tree/master/week_04/03_flex_example_finished)
 
-### :construction_worker: MORE Coming soon :construction_worker:
+---
+
+### :five: Week 5 :five:
+### :file_folder: [`week_05`](https://github.com/stribis/html_css_wdd919/tree/master/week_05)
+#### HTML & CSS Project Woche & Probe Test
+
+* Probe Test (Finished Example)
+  * :file_folder: [`01_probe_test`](https://github.com/stribis/html_css_wdd919/tree/master/week_05/01_probe_test)
+* Pathing in HTML 
+  * :file_folder: [`02_pathing`](https://github.com/stribis/html_css_wdd919/tree/master/week_05/02_pathing)
+
+---
+
+### :six: Week 6 :six:
+### :file_folder: [`week_06`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_animation)
+#### CSS Animations
+
+* Transition in CSS
+  * :file_folder: [`01_transitions`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_animation/01_transitions)
+* Animation property and @keyframes
+  * :file_folder: [`02_animation_keyframes`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_animation/02_animation_keyframes)
+* Animating a clock in CSS (a second hand)
+  * :file_folder: [`03_clock`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_animation/03_clock)
+* Timing Keyframes in CSS
+  * :file_folder: [`04_timing_keyframes`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_animation/04_timing_keyframes)
+* Animating an epic scene in CSS
+  * :file_folder: [`05_scene_animation`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_animation/05_scene_animation)
+* A duck hunt game with Animation and Transition
+  * :file_folder: [`06_duck_hunt`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_animation/06_duck_hunt)
+
+---
+
+### :six: Week 6 (extras) :six:
+### :file_folder: [`week_06`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_extras)
+#### Extras
+
+* Test Your Knowledge ( with solutions)
+  * :file_folder: [`01_testYourKnowledge`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_extras/01_testYourKnowledge)
+* Creating a Dropdown Navigation (Pure CSS)
+  * :file_folder: [`02_dropdown_navigation`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_extras/02_dropdown_navigation)
+* Example of a simple styled form
+  * :file_folder: [`03_forms_styled`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_extras/03_forms_styled)
+* Example of Static Website (Hazbin Hotel)
+  * :file_folder: [`04_hazbin_static_site`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_extras/04_hazbin_static_site)
+* Simple side panel navigation with hover
+  * :file_folder: [`05_side_panel_animation`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_extras/05_side_panel_animation)
+* The issue with `vw` ( How it doesn't work if there is a scrollbar)
+  * :file_folder: [`06_vw_issue`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_extras/06_vw_issue)
+* Importing Stylesheets with `@import url()` to create a central stylesheet
+  * :file_folder: [`07_central_stylesheet`](https://github.com/stribis/html_css_wdd919/tree/master/week_06_extras/07_central_stylesheet)
+
+---

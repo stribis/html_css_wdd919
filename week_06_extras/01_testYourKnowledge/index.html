@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test your knowledge #1</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="solutions.css">
+</head>
+<body>
+  <nav role="navigation">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <a href="#css-selectors"><li>CSS Selectors</li></a>
+        <a href="#css-float"><li>Float & Clear</li></a>
+        <a href="#flex-box"><li>Flex Box</li></a>
+        <hr>
+        <a href="#"><li>Back to Top</li></a>
+      </ul>
+    </div>
+  </nav>
+  <div class="wrapper">
+      
+    
+    <header class="main-header">
+      <div>
+        <h1>Test</h1><br>
+        <h1>your knowledge #1</h1>
+      </div>
+      <p>Complete this test by following the instructions and using the screenshot provided.</p>
+      <hr>
+    </header>
+
+    <section data-topic="1" id="css-selectors" class="css-selectors topic"> 
+      <header class="topic-title">
+        <h2>Topic 1: CSS Selectors</h2>
+        <p>The following exercises will test your CSS selector knowledge. You are not allowed to alter the HTML.<br>You can only use the elements, classes and id's provided!</p>
+      </header>
+      <div class="part part1">
+        <hr>
+        <section class="exercise ex-1">
+          <div class="exercise-num">1.1</div>
+          <h4>1.1 Font Families</h4>
+          <p class="ex-description">Change the <code>font-family</code> of the <code>&lt;li&gt;</code> with the text 'Monospace' to <code>monospace</code> 
+              Do NOT change the font-family of the other <code>&lt;li&gt;</code>s !</p>
+          <ul>
+            <li>Sans-serif</li>
+            <li>
+              <ul>
+                <li>Monospace</li>
+              </ul>
+            </li>
+            <li>Sans-serif</li>
+          </ul>
+        </section>
+        <hr>
+        
+        <!-- 
+          
+        -->
+        
+        <section class="exercise ex-2">
+            <div class="exercise-num">1.2</div>
+          <h4>1.2 Our Departments</h4>
+          <p class="ex-description">The departments of the SAE Zurich each have individual colors. Audio is <span style="color:blue">blue</span>,
+             game is <span style="color:red">red</span>, web is <span style="color:purple">purple</span> and <span style="color:yellow">film</span> is yellow. Change the font color of the departments listed
+              bellow to their correct colors.</p>
+          <ul>
+            <li>Audio</li>
+            <li>Game</li>
+            <li>Web</li>
+            <li>Film</li>
+          </ul>
+        </section>
+        <hr>
+
+        <!-- 
+
+         -->
+
+        <section class="exercise ex-3">
+          <div class="exercise-num">1.3</div>
+          <h4>1.3 Police Academy</h4>
+          <p class="ex-description">Help the policeman catch the bad guys and save the witness:<br>
+          1. Give the policeman a <code>text-decoration</code> of <code>underline</code> and <code>overline</code> with a blue colored line<br>
+          2. Give the robber, the killer and the Arsonist a <code>text-decoration</code> of <code>strikethrough</code><br>
+          3. Give the witness a <code>text-decoration</code> of <code>double</code> and make the lines red.</p>
+
+          </p>
+          <ul>
+            <li>😑 Innocent</li>
+            <li>😑 Innocent</li>
+            <li id="policeman">🚓 Policeman</li>
+            <li>😱 Witness</li>
+            <li>💰 Robber</li>
+            <li>🔪 Killer</li>
+            <li>🔥 Arsonist</li>
+          </ul>
+        </section>
+        <hr>
+      </div>
+      <button class="show_hide">show/hide</button>
+    </section>
+    <div class="hidden-tab hidden" data-topic="1">
+      <header class="topic-title">
+        <h2>Topic 1: CSS Selectors (Hidden)</h2>
+      </header>
+      <button class="show_hide">show/hide</button>
+    </div>
+    <section data-topic="2" id="css-float" class="css-float topic"> 
+      <header class="topic-title">
+        <h2>Topic 2: Float & Clear</h2>
+        <p>Looking at the screenshots you have been provided, try to recreate the layouts using float and clear. DON'T USE FLEX OR GRID.</p>
+      </header>
+      <div class="part part1">
+        <hr>
+        
+        <!--
+
+        -->
+        <section class="exercise ex-4">
+            <div class="exercise-num">2.1</div>
+            <h4>2.1 Simple Float</h4>
+            <div class="layout-container">
+              <header>Header</header>
+              <main>Main</main>
+              <aside>Aside</aside>
+              <section>Section</section>
+              <footer>Footer</footer>
+
+            </div>
+          </section>
+        <hr>
+        <!--
+
+        -->
+        <section class="exercise ex-5">
+            <div class="exercise-num">2.2</div>
+            <h4>2.2 Medium Float</h4>
+            <div class="layout-container">
+              <header>Header</header>
+              <aside>Aside</aside>
+              <main>Main</main>
+              <aside>Aside</aside>
+              <section>Section</section>
+              <section>Section</section>
+              <footer>Footer</footer>
+            </div>
+          </section>
+        <hr>
+        <!--
+
+        -->
+        <section class="exercise ex-6">
+            <div class="exercise-num">2.3</div>
+            <h4>2.3 Hard Float</h4>
+            <div class="layout-container">
+              <header>
+                <nav>
+                  <ul>
+                    <li>Link One</li><li>Link Two</li><li>Link Three</li><li>Link Four</li>
+                  </ul>
+                </nav>
+              </header>
+              <aside>
+                <ul>
+                  <li>item 1</li>
+                  <li>item 2</li>
+                  <li>item 3</li>
+                  <li>item 4</li>
+                  <li>item 5</li>
+                </ul>
+              </aside>
+              <main>Main</main>
+              <aside>
+                <ul>
+                  <li>item 1</li>
+                  <li>item 2</li>
+                  <li>item 3</li>
+                  <li>item 4</li>
+                  <li>item 5</li>
+                </ul>
+              </aside>
+              <section>
+                <article>One</article><article>Two</article><article>Three</article><article>Four</article>
+              </section>
+              <footer>Footer</footer>
+            </div>
+          </section>
+        <hr>
+      </div>
+      <button class="show_hide">show/hide</button>
+    </section>
+    <div class="hidden-tab hidden" data-topic="2">
+      <header class="topic-title">
+        <h2>Topic 2: CSS Float (Hidden)</h2>
+      </header>
+      <button class="show_hide">show/hide</button>
+    </div>
+    
+    <section data-topic="3" id="flex-box" class="flex-box topic"> 
+      <header class="topic-title">
+        <h2>Topic 3: Flex Box</h2>
+        <p>Recreate the layouts in the screenshots provided using css flex. Think about direction, alignment and justification.</p>
+      </header>
+      <div class="part part1">
+        <hr>
+        
+        <!-- For this part use children selectors (SPACE) or direct children selectors (>) -->
+
+        <!--  
+          Change the font-family of the <li> with the text 'Monospace' to monospace 
+          Do NOT change the font-family of the other <li>s !
+        -->
+        <section class="exercise ex-7">
+          <div class="exercise-num">3.1</div>
+          <div class="layout-container">
+            <div class="flex-item">Item 1</div>
+            <div class="flex-item">Item 2</div>
+            <div class="flex-item">Item 3</div>
+            <div class="flex-item">Item 4</div>
+            <div class="flex-item">Item 5</div>
+          </div>
+        </section>
+        <hr>
+
+        <section class="exercise ex-8">
+          <div class="exercise-num">3.2</div>
+          <div class="layout-container">
+            <div class="flex-item">Item 1</div>
+            <div class="flex-item">Item 2</div>
+            <div class="flex-item">Item 3</div>
+            <div class="flex-item">Item 4</div>
+            <div class="flex-item">Item 5</div>
+          </div>
+        </section>
+        <hr>
+
+        <section class="exercise ex-9">
+          <div class="exercise-num">3.3</div>
+          <div class="layout-container">
+            <div class="flex-item">Item 1</div>
+            <div class="flex-item">Item 2</div>
+            <div class="flex-item">Item 3</div>
+            <div class="flex-item">Item 4</div>
+            <div class="flex-item">Item 5</div>
+          </div>
+        </section>
+        <hr>
+
+        <section class="exercise ex-10">
+          <div class="exercise-num">3.4</div>
+          <div class="layout-container">
+            <div class="flex-item-lrg">Item 1</div>
+            <div class="flex-item-lrg">Item 2</div>
+            <div class="flex-item-lrg">Item 3</div>
+            <div class="flex-item-lrg">Item 4</div>
+            <div class="flex-item-lrg">Item 5</div>
+          </div>
+        </section>
+        <hr>
+
+
+      </div>
+      <button class="show_hide">show/hide</button>
+    </section>
+    <div class="hidden-tab hidden" data-topic="3">
+      <header class="topic-title">
+        <h2>Topic 3: Flex Box (Hidden)</h2>
+      </header>
+      <button class="show_hide">show/hide</button>
+    </div>
+    <footer class="main-footer">
+      <div class="footer-left">
+        <h4>Web Design & Development - SAE Institute Zurich</h4>
+        <h4>Modul 4100: Web Basics</h4>
+        <h5>Author: Martin Hutchings</h5>
+        <h5>Last Updated: November 2019</h5>
+      </div>
+      <div class="footer-right">
+        <img src="SAE_cropped.png" alt="Logo of SAE Institute">
+      </div>
+    </footer>
+  </div>
+  <script src="code.js"></script>
+</body>
+</html>

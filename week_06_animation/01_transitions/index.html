@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Transition</title>
+  <style>
+  
+  /* === Small CSS Reset === */
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  *, *::after, *::before{
+    box-sizing: border-box;
+  }
+
+  body{
+    background: #333;
+  }
+
+  .box{
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    background: red;
+    margin: 2em;
+  }
+
+  .color:hover{
+    background: blue;
+  }
+
+  .move:hover{
+    transform: translate( 200% , 0);
+    background: blue;
+  }
+
+  .rotate:hover{
+    transform: rotate(360deg);
+    background: yellow;
+  }
+
+
+
+
+  /* Uncomment the following code if you want to see the same but with animations */
+
+  /* .color{
+    animation: colorChange 2s;
+  }
+
+  .move{
+    animation: moveRight 2s;
+  }
+
+  .rotate{
+    animation: rotateBox 2s infinite;
+  }
+
+  @keyframes colorChange {
+    0% {background: red;}
+    100% {background: blue;}
+  }
+
+  @keyframes moveRight {
+    0% {
+      background: red;
+      transform: translateX(0);
+    }
+    50% {
+      background: yellow;
+      transform: translateX(200px);
+    }
+    100% {
+      background: red;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes rotateBox {
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  } */
+
+  </style>
+</head>
+<body>
+  <div class="box color"></div>
+  <div class="box move"></div>
+  <div class="box rotate"></div>
+</body>
+</html>

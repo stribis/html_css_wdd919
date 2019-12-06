@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    /* === Small CSS Reset === */
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    *, *::after, *::before{
+      box-sizing: border-box;
+    }
+
+    nav{
+      width: 100%;
+      background: darkorange;
+    }
+
+    nav > ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+    }
+
+    nav > ul > li{
+      padding: 0.4em 0.8em;
+    }
+
+    nav > ul > li:hover{
+      background: rgb(182, 100, 0);
+    }
+
+    .dd_trigger{
+      position: relative;
+    }
+
+    .dd_menu{
+      /* width: 100%; */
+      position: absolute;
+      background: red;
+      padding: 1em;
+      list-style: none;
+      z-index: -1;
+      display: none;
+    }
+  
+  .dd_trigger:hover .dd_menu{
+    display: block;
+  }
+    
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>Link 1</li>
+      <li class="dd_trigger">Link 2 (dd)
+        <ul class="dd_menu">
+          <li>DD 1</li>
+          <li>DD 2</li>
+          <li>DD 3</li>
+        </ul>
+      </li>
+      <li>Link 3</li>
+    </ul>
+  </nav>
+</body>
+</html>
