@@ -1,0 +1,446 @@
+/* Style for landing page practice */
+/* Variables */
+/* === Small CSS Reset === */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+nav {
+  padding: .5rem 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #212529;
+}
+
+nav .logo {
+  font-size: 1.25rem;
+  padding: .3125rem 0;
+}
+
+nav .button {
+  background: #007bff;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+}
+
+header {
+  background: url("../images/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 12rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header h1 {
+  text-align: center;
+  max-width: 840px;
+  font-size: 3rem;
+  color: #fff;
+}
+
+header form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 39%;
+  margin-top: 2.5rem;
+}
+
+header form input {
+  margin: 0 5px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%;
+  width: 100%;
+  height: calc(1.5em + 1rem + 2px);
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+header form button {
+  margin: 0 5px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  width: 100%;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border: 1px solid transparent;
+  text-align: center;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7rem 0;
+  background: #f8f9fa;
+}
+
+.features .feature {
+  margin: 0 2rem;
+  max-width: 20rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333333%;
+          flex: 0 0 33.333333%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.features .feature h3 {
+  margin-bottom: .5rem;
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.features .feature p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.features .feature i {
+  margin: 2rem 0;
+  font-size: 4.5rem;
+  color: #007bff;
+}
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.items:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.items .sec-col {
+  margin: auto;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 7rem;
+}
+
+.items .sec-col h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 0 0 .5rem 0;
+}
+
+.items .sec-col p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.items .image-1, .items .image-2, .items .image-3 {
+  min-height: 30rem;
+}
+
+.items .image-1 {
+  background: url(../images/bg-showcase-1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.items .image-2 {
+  background: url(../images/bg-showcase-2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.items .image-3 {
+  background: url(../images/bg-showcase-3.jpg) no-repeat;
+  background-size: cover;
+}
+
+section.people {
+  padding: 7rem 0;
+  background: #f8f9fa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.people h2 {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+section.people .pic-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.people .pic-row .pic-col {
+  -ms-flex-preferred-size: 26%;
+      flex-basis: 26%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 3rem;
+}
+
+section.people .pic-row .pic-col img {
+  max-width: 12rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 5px 5px 0 #adb5bd;
+          box-shadow: 0 5px 5px 0 #adb5bd;
+  margin-bottom: 1rem;
+}
+
+section.people .pic-row .pic-col h5 {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+section.people .pic-row .pic-col p {
+  font-weight: 300;
+  text-align: center;
+}
+
+.register {
+  padding: 7rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../images/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.register h2 {
+  color: #fff;
+}
+
+.register form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 39%;
+  margin-top: 2.5rem;
+}
+
+.register form input {
+  margin: 0 5px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%;
+  width: 100%;
+  height: calc(1.5em + 1rem + 2px);
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+.register form button {
+  margin: 0 5px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  width: 100%;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border: 1px solid transparent;
+  text-align: center;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 4rem 0;
+}
+
+footer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .left ul {
+  margin-bottom: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+footer .left ul li {
+  position: relative;
+  margin-right: 2rem;
+}
+
+footer .left ul li::after {
+  position: absolute;
+  content: '.';
+  right: calc(100% + 0.9rem);
+  -webkit-transform: translateY(-15%);
+          transform: translateY(-15%);
+  font-weight: 700;
+}
+
+footer .left ul li:first-of-type::after {
+  content: '';
+}
+
+footer .left ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer .left small {
+  color: #495057;
+}
+
+footer .right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+footer .right ul i {
+  color: #007bff;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
